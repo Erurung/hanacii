@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p class="bigtitle">ISEGYE RESTAURANT</p>
+    <br><br><br><br><br><br>
+    <div class="location">
+        <span class="title">장소 |</span><span class="content">인천광역시 남동구 남동대로 720</span>
+    </div>
+
+    <div class="time">
+        <span class="title">일시 |</span><span class="content">9.6 ~ 9.7 17:00 ~ 08:00</span>
+    </div>
+
+    <div>
+        <span class="caution">사전 입장은 14:00 부터 가능합니다.</span>
+    </div>
+    <br>
+    <!-- <span class="a">장소 | </span><span class="b">인천광역시 남동구 남동대로 720</span><br>
+    <span class="bb">일시 | </span><span class="bb">9.6 ~ 9.7 17:00 ~ 08:00</span><br><span class="사전입장">사전 입장은 14:00 부터 가능합니다.</span> -->
+    <br><br>
+
+    <p class="디너코스">디너코스</p>
+    <div class="메뉴">
+        <p class="s50">식전 |</p>
+        <hr>
+        <div class="메뉴2">
+            <span>냉국수</span>
+            <span>화이트 와인</span>
+        </div>
+        <div class="메뉴2">
+            <span>한입 육회</span>
+        </div>
+        <br><br><br><br>
+    </div>
+        <div class="메뉴">
+        <p class="s50">메인 |</p>
+        <hr>
+        <div class="메뉴2">
+            <span>한식 파스타</span>
+            <span>레드 와인</span>
+        </div>
+        <div class="메뉴2">
+            <span>고기쌈</span>
+        </div>
+            <div class="메뉴2">
+            <span>프렌치 랙</span>
+        </div>
+    </div>
+    <br><br><br><br>
+    <div class="메뉴">
+    <p class="s50">식후 |</p>
+    <hr>
+    <div class="메뉴2">
+        <span>찌개와 밥</span>
+        <span>레드 와인</span>
+    </div>
+    <div class="메뉴2">
+        <span>고구마</span>
+    </div>
+    <div class="안내사항">
+        <p>● 알레르기가 있거나 기피 음식이 있으신 분은 사전에 말씀해주세요</p>
+        <p>● 주차는 건물 앞,뒤에 무료로 가능합니다.</p>
+        <p>● 실내와 화장실 포함 건물 전체 금연입니다.(전자담배 포함) 흡연 적발시 보증금 전액 차감후 퇴실 조치 합니다.</p>
+        <p class="추가사항">(흡연은 옥상 및 건물 외부에서 가능합니다)</p>
+        <p>● 분실물의 보관은 1주일까지입니다</p>
+    </div>
+    </div>
+    <br><br><br>
+    <span class="입금처">예약금 입금처 | </span>
+    <a class="qr" href="index.html">
+        <img src="account.png" alt="qr" width="120" height="120">
+    </a>
+    <span class="입금안내사항">입금 후 입금자명을 알려주세요</span>
+</body>
+<style>
+    * {
+        font-family: '210 M고딕 030';
+        font-size: 10pt;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .입금처 {
+        position: absolute;
+        bottom: 130px;
+        right: 130px;
+        font-size: 10pt;
+    }
+
+    .입금안내사항 {
+        position: absolute;
+        bottom: 7px;
+        right: 4px;
+        font-size: 9pt;
+        color: #4a4949;
+    }
+
+    .qr {
+        position: absolute;
+        bottom: 20px;
+        right: 0px;
+    }
+
+    .안내사항 {
+        margin-top: 140px;
+        margin-left: -4px;
+        line-height: 0.4;
+        color: #4a4949;
+    }
+
+    .추가사항 {
+        margin-left: 16px;
+    }
+
+    hr {
+        margin-bottom: 20px;
+    }
+
+    body {
+        position: relative;
+        background-color: #eeeeee;
+    }
+
+    .s50 {
+        font-family: "210 M고딕 040";
+        font-size: 10pt;
+        line-height: 0.8;
+    }
+
+    .디너코스 {
+        font-family: "210 M고딕 050";
+        font-size: 14pt;
+        padding-left: 8px;
+    }
+
+    .bigtitle {
+        font-family: "210 M고딕 050";
+        text-align: right;
+        font-size: 14pt;
+        color: #494949;
+    }
+
+    .메뉴2 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        margin-left: -4px;
+    }
+
+    .메뉴 {
+        padding-top: 20px;
+    }
+
+    .location {
+        font-size: 14pt;
+        line-height: 1.8;
+    }
+
+    .time {
+        font-size: 14pt;
+        line-height: 0.6;
+    }
+
+    hr {
+        margin-top: -8px;
+        margin-left: 4px;
+        color: black;
+    }
+
+    .caution {
+        font-size: 7pt;
+        margin-left: 40px;
+
+    }
+
+    .content {
+        color: #4a4949;
+        font-size: 10pt;
+        margin-left: -5px;
+    }
+
+    .title {
+        color: black;
+        font-size: 10pt;
+    }
+
+    .title, .content {
+        letter-spacing: 1.2px;
+    }
+</style>
+</html>
